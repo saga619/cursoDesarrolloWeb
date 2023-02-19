@@ -1,3 +1,14 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro: #212121;
+    --primario: #ffc107;
+    --secundario: #0097a7;
+    --gris: #757575;
+
+
+}
+
+
 html{
     font-size: 62.5%;
 }
@@ -7,6 +18,7 @@ body{
 .titulo {
     text-align: center;
     font-size: 3.8rem;
+    color: var(--oscuro);
 }
 
 
