@@ -38,5 +38,10 @@ body{
 }
 
 .navegacion-principal {
-   color: #757575;
+    color: #757575;
+}
+
+.navegacion-principal a{
+    background-color: var(--primario);
+    
 }
