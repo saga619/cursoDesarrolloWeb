@@ -74,4 +74,13 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     height: 450px;
+    position: relative;
+}
+
+.contenido-hero {
+    position: absolute;
+    background-color:rgba(0, 0, 0, 0.5);
+    background-color: rgb(0 0 0 / 50%);
+    height: 100%;
+    width: 100%;
 }
