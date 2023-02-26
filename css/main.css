@@ -50,8 +50,25 @@ h1, h2, h3{
 }
 
 .boton {
-    
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    text-transform: uppercase;
+    font-weight: bold;
+    width: 90%;
+    text-align: center;
 }
+
+@media (min-width: 768px) {
+    .boton{
+        width: auto;
+    }
+}
+    
 
 .navegacion-principal {
     display: flex;
