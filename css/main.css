@@ -4,7 +4,7 @@
     --primario: #ffc107;
     --secundario: #0097a7;
     --gris: #757575;
-
+    --grisClaro: #dfe9f3;
 
 }
 
@@ -19,6 +19,7 @@ html{
 body{
     font-size: 16px; /* 1rem = 10px tomando como referencia el codigo css del html y body*/
     font-family: 'Krub', sans-serif;
+    background-image: linear-gradient(to top, var(--grisClaro) 0%, var(--blanco) 100%);
 }
 h1{
     font-size: 3.8rem;
