@@ -139,3 +139,29 @@ h1, h2, h3{
     display: flex;
     align-items: baseline;
 }
+
+/* class servicios */
+
+@media (min-width: 768px) {
+    .servicios{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: 20rem 80rem;
+        column-gap: 1rem;
+        }
+    }
+
+    .servicio{
+        color: #0097a7;
+    }
+
+    .servicio h3{
+        color: #0097a7;
+    }
+    
+    .servicio .iconos {
+        height:15rem;
+        width: 15rem;
+        background-color: var(--primario);
+        border-radius: 50%;
+    }
