@@ -109,7 +109,7 @@ h1, h2, h3{
 
 .contenido-hero {
     position: absolute;
-    background-color:rgba(0, 0, 0, 0.6); /**Así se crea un comentario en css **/
+    background-color:rgba(0, 0, 0, 0.6); /* Así se crea un comentario en css */
     background-color: rgb(0 0 0 / 60%);
     height: 100%;
     width: 100%;
