@@ -20,12 +20,21 @@ body{
     font-size: 16px; /* 1rem = 10px tomando como referencia el codigo css del html y body*/
     font-family: 'Krub', sans-serif;
 }
-.titulo {
-    text-align: center;
+h1{
     font-size: 3.8rem;
-    
 }
 
+h2{
+    font-size: 2.8rem;
+}
+
+h3{
+    font-size: 1.8rem;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
 
 .titulo span{
     font-size: 2rem;
@@ -38,6 +47,10 @@ body{
 .contenedor{
     max-width: 120rem;
     margin: 0px auto;
+}
+
+.boton {
+    
 }
 
 .navegacion-principal {
@@ -79,8 +92,22 @@ body{
 
 .contenido-hero {
     position: absolute;
-    background-color:rgba(0, 0, 0, 0.5);
-    background-color: rgb(0 0 0 / 50%);
+    background-color:rgba(0, 0, 0, 0.6); /**Así se crea un comentario en css **/
+    background-color: rgb(0 0 0 / 60%);
     height: 100%;
     width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.contenido-hero h2,
+.contenido-hero p{
+    color: var(--blanco);
+}
+
+.ubicacion {
+    display: flex;
+    align-items: baseline;
 }
