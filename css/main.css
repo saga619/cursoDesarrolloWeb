@@ -13,6 +13,7 @@
 html{
     font-size: 62.5%;
     box-sizing: border-box;
+    scroll-snap-type: y mandatory;
 }
 /** Scroll Snaps **/
 
@@ -165,6 +166,14 @@ h1, h2, h3{
 .contenido-hero .ubicacion {
     display: flex;
     align-items: baseline;
+}
+
+/* Scroll Snaps*/
+.servicios,
+.navegacion-principal,
+.formulario {
+    scroll-snap-align: center;
+    scroll-snap-stop: always;
 }
 
 /* Servicios Class */
