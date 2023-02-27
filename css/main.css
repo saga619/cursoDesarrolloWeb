@@ -173,7 +173,8 @@ h1, h2, h3{
 .navegacion-principal,
 .servicios,
 .formulario,
-.diseño-web {
+.diseño-web,
+.e-comerse {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
