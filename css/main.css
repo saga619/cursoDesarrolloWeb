@@ -169,9 +169,11 @@ h1, h2, h3{
 }
 
 /* Scroll Snaps*/
-.servicios,
+
 .navegacion-principal,
-.formulario {
+.servicios,
+.formulario,
+.diseño-web {
     scroll-snap-align: center;
     scroll-snap-stop: always;
 }
